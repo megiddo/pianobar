@@ -16,11 +16,11 @@ pianobar is a console client for the personalized web radio [Pandora](http://www
 The source code can be downloaded at [github.com](http://github.com/PromyLOPh/pianobar/)
 or [6xq.net](http://6xq.net/projects/pianobar/).
 
-Ubuntu 18.04 Build instructions
-sudo apt-get install libgcrypt11-dev libjson-c-dev libgnutls28-dev ffmpeg libao-dev libjson-c-dev git-core libmad0-dev libfaac-dev libfaad-dev libavcodec-dev libavformat-dev libavfilter-dev
-make clean
-make
-sudo make install
+#### Ubuntu 18.04 Build instructions
+1. sudo apt-get install libgcrypt11-dev libjson-c-dev libgnutls28-dev ffmpeg libao-dev libjson-c-dev git-core libmad0-dev libfaac-dev libfaad-dev libavcodec-dev libavformat-dev libavfilter-dev
+2. make clean
+3. make
+4. sudo make install
 
 ### Download/Installation
 
