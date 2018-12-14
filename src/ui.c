@@ -793,7 +793,7 @@ size_t BarUiListSongs (const BarApp_t * const app,
 				stationName = deleted;
 			}
 
-			char outstr[512], digits[8], duration[8] = "??:??";
+			char outstr[512], digits[8], duration[12] = "??:??";
 			const char *vals[] = {digits, song->artist, song->title,
 					ratingToIcon (settings, song),
 					duration,

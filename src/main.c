@@ -138,7 +138,7 @@ static bool BarMainGetLoginCredentials (BarSettings_t *settings,
 
 				close (pipeFd[1]);
 				memset (passBuf, 0, sizeof (passBuf));
-				read (pipeFd[0], passBuf, sizeof (passBuf)-1);
+				ssize_t read_len = read (pipeFd[0], passBuf, sizeof (passBuf)-1);
 				close (pipeFd[0]);
 
 				/* drop trailing newlines */
