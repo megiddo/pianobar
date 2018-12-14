@@ -21,6 +21,7 @@ or [6xq.net](http://6xq.net/projects/pianobar/).
 2. make clean
 3. make
 4. sudo make install
+4.B. Alternately,sudo cp pianobar /usr/bin/pianobar 
 
 ### Download/Installation
 
